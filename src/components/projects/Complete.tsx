@@ -1,10 +1,10 @@
 import ProjectCard from "../ProjectCard";
 import MyntraClone from "../../assets/myntra-clone.png"
-import NewsApp from "../../assets/news.png";
 import MiStore from "../../assets/mistore.png"
 import Contact from "../../assets/contact.png"
 import Whether from "../../assets/whether.png"
 import MovieImg from "../../assets/movie.png"
+import PortfolioImg from "../../assets/kunalP.png"
 
 const movieTechstack = [
   "https://cdn-icons-png.flaticon.com/128/732/732212.png",
@@ -12,6 +12,16 @@ const movieTechstack = [
   "https://img.icons8.com/?size=48&id=20906&format=png",
   "https://cdn-icons-png.flaticon.com/128/1126/1126012.png",
   "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
+];
+const Portfolio = [
+  "https://cdn-icons-png.flaticon.com/128/732/732212.png",
+  "https://cdn-icons-png.flaticon.com/128/732/732190.png",
+  "https://cdn-icons-png.flaticon.com/128/1126/1126012.png",
+  "https://cdn-icons-png.flaticon.com/128/919/919832.png",
+  "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
+  "https://magicui.design/icon.png",
+  "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=64&q=75"
+
 ];
 const miStore = [
   "https://cdn-icons-png.flaticon.com/128/732/732212.png",
@@ -26,7 +36,7 @@ const myntraClone = [
     "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
     "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=64&q=75"
   ];
-  const newsApp = [
+  const contactApp = [
     "https://cdn-icons-png.flaticon.com/128/732/732212.png",
     "https://cdn-icons-png.flaticon.com/128/732/732190.png",
     "https://cdn-icons-png.flaticon.com/128/1126/1126012.png",
@@ -42,7 +52,15 @@ const myntraClone = [
 const Complete = () => {
   return (
       <div className="flex flex-wrap  lg:h-[160vh] h-fit gap-60 lg:gap-0 justify-center mt-10">
-         
+         <ProjectCard
+          to="https://type-script-portfolio-eight.vercel.app/"
+          github="Portfolio"
+          techStack={Portfolio}
+          projectLink="https://type-script-portfolio-eight.vercel.app/"
+          img={PortfolioImg}
+          projectName="Portfolio"
+          desc="Simple and classic modern portfolio for who wants to present himself as a frontend developer. Portfolio build with highly customizable using Tailwind CSS,Reactjs"
+        />
          <ProjectCard
           to="https://genuine-dieffenbachia-966c95.netlify.app/"
           github="Myntra-Clone"
@@ -71,19 +89,11 @@ const Complete = () => {
           desc="
               The Xiaomi Store App is a comprehensive e-commerce platform designed to replicate the functionality and aesthetic of Xiaomi's official store. a smooth shopping,enabling users to browse,  and manage Xiaomi products with ease."
         /> 
-         <ProjectCard
-          to="https://github.com/kunaldec022002/News-App/"
-          github="News-App"
-          techStack={newsApp}
-          projectLink="Not to deploy"
-          img={NewsApp}
-          projectName="News App"
-          desc="This News App is a dynamic and responsive platform designed to deliver the latest news across various categories. The app provides users with a seamless way to stay informed by aggregating news from multiple sources and presenting them in an easy-to-navigate interface."
-        />
+         
         <ProjectCard
           to="https://github.com/kunaldec022002/News-App/"
           github="News-App"
-          techStack={newsApp}
+          techStack={contactApp}
           projectLink="https://contactapp18.netlify.app/"
           img={Contact}
           projectName="Contact App"
