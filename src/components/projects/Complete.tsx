@@ -4,6 +4,7 @@ import NewsApp from "../../assets/news.png";
 import MiStore from "../../assets/mistore.png"
 import Contact from "../../assets/contact.png"
 import Whether from "../../assets/whether.png"
+import MovieImg from "../../assets/movie.png"
 
 const movieTechstack = [
   "https://cdn-icons-png.flaticon.com/128/732/732212.png",
@@ -56,7 +57,7 @@ const Complete = () => {
           github="Movie_App"
           techStack={movieTechstack}
           projectLink="https://hollywoodapp.netlify.app/"
-          img="https://personalportfolioankit.netlify.app/assets/movie-c2e4e740.png"
+          img={MovieImg}
           projectName="Movie App"
           desc="The movie app is a comprehensive platform designed to help users discover, explore, and enjoy movies from various genres, languages, and countries. With a user-friendly interface and powerful features"
         />
@@ -95,7 +96,7 @@ const Complete = () => {
           projectLink="https://whether-app02.netlify.app/"
           img={Whether}
           projectName="Whether App"
-          desc="Contact App is a sleek and intuitive tool designed to efficiently manage and organize personal or professional contacts. The app allows users to easily add, edit, delete,and providing a seamless experience for managing relationships."
+          desc="This application is built using a robust JavaScript stack, with React.js as the front-end framework. The app is designed to provide a dynamic and responsive user experience. "
         />
 
           {/* <ProjectCard

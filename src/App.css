@@ -23,3 +23,9 @@ html {
   scrollbar-width: thin; /* Options are auto, thin, and none */
   scrollbar-color:  #5a5aff #f1f1f1; /* Thumb and Track color */
 }
+
+#box
+{
+  display: block;
+  margin: 0px auto;
+}
