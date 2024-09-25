@@ -11,8 +11,8 @@ const Study = () => {
       </h2>
       <div>
         <StudyCard img={PG} gradiuate="Post-Gradiuate " date="July 2023 ~ July 2025" course="Master of Computer Applications-(MCA) (Persuing)" collageName="G H Raisoni College of Engineering ,Amravati"/>
-        <StudyCard img={UG} gradiuate="Gradiuate" date=" July 2020 ~ July 2023" course="Bachelor of Computer Applications-(BCA)" collageName="Shri.Shivaji Science College, Amravati"/>
-        <StudyCard img={MERN} gradiuate="MERN STACK" date=" MAY 2023 ~  DEC 2024" course="MERN" collageName="ROAD TO CODE, NAGPUR"/>
+        <StudyCard img={UG} gradiuate="Gradiuate" date=" July 2020 ~ July 2023" course="Bachelor of Computer Applications-(BCA)" collageName="Shri.Shivaji Science College, Amravati" />
+        <StudyCard img={MERN} gradiuate="MERN STACK" date=" MAY 2023 ~  DEC 2023" course="MERN" collageName="ROAD TO CODE, NAGPUR"/>
         </div>
 
     </div>

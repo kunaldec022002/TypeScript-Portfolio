@@ -14,6 +14,7 @@ const slugs = [
   "postman",
   "tailwindcss",
   "bootstrap",
+  "sass",
 ];
 
 export function SkillLoader() {

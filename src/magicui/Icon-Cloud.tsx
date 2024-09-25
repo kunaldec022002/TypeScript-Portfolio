@@ -10,7 +10,7 @@ import {
   SimpleIcon,
 } from "react-icon-cloud";
 
-export const cloudProps: Omit<ICloud, "children"> = {
+export  const cloudProps: Omit<ICloud, "children"> = {
   containerProps: {
     style: {
       display: "flex",
@@ -32,7 +32,7 @@ export const cloudProps: Omit<ICloud, "children"> = {
     tooltipDelay: 0,
     outlineColour: "#0000",
     maxSpeed: 0.05,
-    minSpeed: 0.03,
+    minSpeed: 0.05,
     // dragControl: false,
   },
 };
