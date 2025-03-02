@@ -15,6 +15,7 @@ const slugs = [
   "tailwindcss",
   "bootstrap",
   "sass",
+  "figma"
 ];
 
 export function SkillLoader() {
