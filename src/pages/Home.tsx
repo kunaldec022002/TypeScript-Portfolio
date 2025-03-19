@@ -7,6 +7,8 @@ import Projects from "../components/Projects";
 import Todo from "../components/Todo";
 import Study from "../components/Study";
 import BackToTopButton from "../components/BackToTop";
+import Skills from "../components/Skills";
+
 
 
 
@@ -16,7 +18,7 @@ const Home = () =>{
       <div className="font-mono">
         <Navbar/>
         <HeroSection/>
-        
+        <Skills/>
         <TextRevealCmp text={"Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program."}/>
        <Projects/>
        <br/><br/>
