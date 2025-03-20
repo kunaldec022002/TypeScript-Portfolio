@@ -37,11 +37,11 @@ export default {
         spotlight: {
           "0%": {
             opacity: 0,
-            transform: "translate(-72%, -62%) scale(0.5)",
+            transform: "translate(-75%, -62%) scale(0.5)",
           },
           "100%": {
             opacity: 1,
-            transform: "translate(-50%,-40%) scale(1)",
+            transform: "translate(-55%,-40%) scale(1)",
           },
         },
         aurora: {

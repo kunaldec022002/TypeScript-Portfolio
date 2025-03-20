@@ -109,14 +109,14 @@ const Navbar = () => {
       <div className="flex gap-2">
         <div className="cursor-pointer">
           <ShimmerButton to="https://github.com/kunaldec022002">
-            <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight dark:from-white dark:to-slate-900/10 lg:text-lg">
+            <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
               <FaGithub />
             </span>
           </ShimmerButton>
         </div>
         <div className="cursor-pointer">
           <ShimmerButton to="https://www.linkedin.com/in/kunal-ingale/">
-            <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight dark:from-white dark:to-slate-900/10 lg:text-lg">
+            <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
               <FaLinkedinIn />
             </span>
           </ShimmerButton>

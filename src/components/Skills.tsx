@@ -39,7 +39,7 @@ const Skills = () => {
         <OrbitingCircles
           className="size-[50px] border-none bg-transparent"
           radius={150}
-          duration={10}
+          duration={30}
           reverse
         >
           <Icons.ts />
@@ -47,7 +47,7 @@ const Skills = () => {
         <OrbitingCircles
           className="size-[50px] border-none bg-transparent"
           radius={120}
-          duration={20}
+          duration={30}
           delay={20}
         >
           <Icons.gitHub />
@@ -56,8 +56,8 @@ const Skills = () => {
         <OrbitingCircles
           className="size-[50px] border-none bg-transparent"
           radius={260}
-          duration={20}
-          delay={20}
+          duration={25}
+          delay={30}
           reverse
         >
           <Icons.react />
@@ -74,8 +74,8 @@ const Skills = () => {
         <OrbitingCircles
           className="size-[50px] border-none bg-transparent"
           radius={190}
-          duration={20}
-          delay={20}
+          duration={35}
+          delay={30}
           reverse
         >
           <Icons.bootstrap />
@@ -83,7 +83,7 @@ const Skills = () => {
         <OrbitingCircles
           className="size-[50px] border-none bg-transparent"
           radius={190}
-          duration={20}
+          duration={40}
           delay={20}
         >
           <Icons.postman />
