@@ -34,7 +34,7 @@ const myntraClone = [
     "https://cdn-icons-png.flaticon.com/128/732/732212.png",
     "https://cdn-icons-png.flaticon.com/128/732/732190.png",
     "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
-    "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=64&q=75"
+    "https://img.icons8.com/color/48/bootstrap--v2.png"
   ];
   const contactApp = [
     "https://cdn-icons-png.flaticon.com/128/732/732212.png",
