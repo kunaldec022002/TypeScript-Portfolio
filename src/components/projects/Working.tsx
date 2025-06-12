@@ -1,6 +1,7 @@
 import ProjectCard from "../ProjectCard";
 import BigBazar from "../../assets/bigBazar.png"
 import NewsApp from "../../assets/news.png"
+import WasteFood from "../../assets/wasteFood.png"
 
 const bigBazar = [
   "https://cdn-icons-png.flaticon.com/128/732/732212.png",
@@ -19,6 +20,16 @@ const newsApp = [
   "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
    "https://img.icons8.com/color/48/api.png" 
 ];
+
+const wastefood = [
+  "https://cdn-icons-png.flaticon.com/128/732/732212.png",
+  "https://cdn-icons-png.flaticon.com/128/732/732190.png",
+  "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
+  "https://img.icons8.com/3d-fluency/100/python.png",
+  "https://img.icons8.com/nolan/100/flask.png",
+   "https://img.icons8.com/color/480/mysql-logo.png"
+]
+
 const Working = () => {
   return (
     <div className="flex flex-wrap gap-60 lg:gap-0 justify-center mt-20">
@@ -40,6 +51,16 @@ const Working = () => {
         img={NewsApp}
         projectName="News App"
         desc="This News App is a dynamic and responsive platform designed to deliver the latest news across various categories. The app provides users with a seamless way to stay informed by aggregating news from multiple sources and presenting them in an easy-to-navigate interface."
+      />
+
+      <ProjectCard
+        to="https://github.com/kunaldec022002/WasteFood_Distribution"
+        github="https://github.com/kunaldec022002/WasteFood_Distribution"
+        techStack={wastefood}
+        projectLink="Not Deploy"
+        img={WasteFood}
+        projectName="Waste Food Distribution"
+        desc="The Waste Food Distribution System is a web-based platform designed to reduce food waste and combat hunger by connecting food donors (restaurants, events, households) with nearby NGOs, shelters, and individuals in need. "
       />
     </div>
   );

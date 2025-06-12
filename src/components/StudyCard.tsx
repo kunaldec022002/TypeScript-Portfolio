@@ -1,4 +1,4 @@
-import { Tag } from "antd"
+// import { Tag } from "antd"
 interface Props{
     img:string,
     date:string,
@@ -19,7 +19,7 @@ const StudyCard = ({img,date,course,collageName,gradiuate}:Props) => {
                 <h2 className="text-blue-500 font-semibold lg:text-2xl mt-2 ">{date}</h2>
                 <p className="font-semibold text-lg">{collageName}</p>
                 <p className="font-semibold text-lg mt-2">{course}</p>
-                <Tag color="cyan" className="text-[17px] bg-transparent font-semibold">🎓 Grade A+</Tag>
+                {/* <Tag color="cyan" className="text-[17px] bg-transparent font-semibold">🎓 Grade A+</Tag> */}
             </div>
         </div>
     </div>

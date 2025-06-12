@@ -96,13 +96,7 @@ const Skills = () => {
         >
           <Icons.tailwindcss />
         </OrbitingCircles>
-        <OrbitingCircles
-          className="size-[50px] border-none bg-transparent"
-          radius={190}
-          duration={15}
-        >
-          <Icons.acernityu />
-        </OrbitingCircles>
+      
         <OrbitingCircles
           className="size-[50px] border-none bg-transparent"
           radius={260}
@@ -152,9 +146,7 @@ const Icons = {
   bootstrap: () => (
     <img src="https://img.icons8.com/color/48/bootstrap--v2.png" />
   ),
-  acernityu: () => (
-    <img src="https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=64&q=75" />
-  ),
+  
   magicui: () => <img src="https://magicui.design/icon.png" />,
  
   postman: () => (
