@@ -1,5 +1,5 @@
 import BoxReveal from "../magicui/BoxRevel";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile pic.jpg";
 import LetterPullup from "../magicui/LetterPullup";
 import { FollowerPointerCard, TitleComponent } from "../magicui/Pointer";
 import { TypewriterEffectSmooth } from "../magicui/TypeWriter";
@@ -29,7 +29,7 @@ const HeroSection = () => {
             <img
               src={profile}
               alt="Your Image"
-              className="w-60 h-60 rounded-full"
+              className="w-60 h-full  rounded-full"
             />
           </BoxReveal>
         </div>
