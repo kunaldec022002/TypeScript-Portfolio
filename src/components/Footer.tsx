@@ -7,7 +7,7 @@ const Footer = () => {
     <div>
 <footer className=" py-4 border-t-2">
 
-    <div className="flex flex-col justify-center items-center gap-4">  <h2 className="flex items-center text-xl"><CiLocationOn /> Talegaon,india  </h2>
+    <div className="flex flex-col justify-center items-center gap-4">  <h2 className="flex items-center text-xl"><CiLocationOn /> Wardha,india  </h2>
     <div className="flex">
     <div className="cursor-pointer">
             <ShimmerButton to="https://github.com/kunaldec022002">
