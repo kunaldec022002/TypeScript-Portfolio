@@ -1,5 +1,5 @@
 import BoxReveal from "../magicui/BoxRevel";
-import profile from "../assets/profile pic.jpg";
+import profile from "../assets/new-profile.jpg";
 import LetterPullup from "../magicui/LetterPullup";
 import { FollowerPointerCard, TitleComponent } from "../magicui/Pointer";
 import { TypewriterEffectSmooth } from "../magicui/TypeWriter";
